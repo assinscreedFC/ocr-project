@@ -18,10 +18,7 @@
         }
     ],
     "subtotal": 765.0,
-    "tax": {
-        "rate": 10.0,
-        "amount": 76.5
-    },
+    "tax": 76.5,
     "total": 841.5,
     "amount_paid": 100.0,
     "terms": null
