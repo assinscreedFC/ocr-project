@@ -1,0 +1,20 @@
+[
+    {
+        "file_name": "facture1",
+        "ocr_path": "data\\samples\\facture1_ocr_result.json",
+        "structured_path": "data\\samples\\facture1_structured.json",
+        "full_text": "",
+        "metadata": {
+            "invoice_number": "23",
+            "date": "2025-09-03",
+            "seller": {
+                "nom": "anis le pro"
+            },
+            "buyer": {
+                "nom": "dani",
+                "adresse": "18 saint germain"
+            },
+            "total": 841.5
+        }
+    }
+]

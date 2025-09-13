@@ -16,5 +16,9 @@
         "pages_processed": 1,
         "doc_size_bytes": 93604
     },
-    "document_annotation": null
+    "document_annotation": null,
+    "full_text": "# FACTURE\n\n## # 23\n\n|  anis le pro |  | Date: | Sep 3, 2025  |\n| --- | --- | --- | --- |\n|  A:\ndani | Adresse de livraison:\n18 saint germain | Modalités de paiement:\nA payer avant le:\nBon de commande: | cheque\nSep 17, 2025\n202020  |\n|   |  | Solde à payer: | 741,50 \\$US  |\n\n|  Objet | Quantité | Prix unitaire | Montant  |\n| --- | --- | --- | --- |\n|  bznanana | 15 | 51,00 \\$US | 765,00 \\$US  |\n\nSous-total: 765,00 \\$US Impôt (10\\%): 76,50 \\$US Total: 841,50 \\$US Montant payé: 100,00 \\$US\n\nTermes: il yen a aucun malheurement",
+    "file_name": "facture1.pdf",
+    "num_pages": 1,
+    "document_type": "facture"
 }
