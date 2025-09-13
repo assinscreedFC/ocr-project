@@ -1,0 +1,10 @@
+fastapi==0.115.0       # API REST moderne
+uvicorn[standard]==0.30.0
+paddleocr==2.7.0       # OCR open-source puissant
+paddlepaddle==2.6.1    # Backend pour PaddleOCR
+opencv-python==4.9.0
+numpy==1.26.0
+python-multipart==0.0.9 # Pour upload de fichiers via API
+pydantic==2.8.0        # Validation des données
+pandas==2.2.0          # Pour exporter en CSV/Excel
+# Dépendances backend
