@@ -7,6 +7,7 @@ import streamlit as st
 
 from mistralai import Mistral
 from dotenv import load_dotenv
+st.write("Clé API depuis st.secrets :", st.secrets.get("MISTRAL_API_KEY"))
 
 # 🔹 Charger la clé API
 load_dotenv(dotenv_path="./env")
