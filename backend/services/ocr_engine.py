@@ -3,7 +3,7 @@ import os
 import base64
 import json
 from pathlib import Path
-from turtle import st
+import streamlit as st
 
 from mistralai import Mistral
 from dotenv import load_dotenv
