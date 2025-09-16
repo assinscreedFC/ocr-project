@@ -3,12 +3,19 @@ import os
 import base64
 import json
 from pathlib import Path
+from turtle import st
+
 from mistralai import Mistral
 from dotenv import load_dotenv
 
 # 🔹 Charger la clé API
 load_dotenv(dotenv_path="./env")
-api_key = os.environ.get("MISTRAL_API_KEY")
+
+# Puis récupérer la clé soit dans env, soit dans secrets
+api_key = (
+    os.getenv("MISTRAL_API_KEY")
+    or st.secrets.get("MISTRAL_API_KEY")
+)
 if not api_key:
     raise ValueError("❌ MISTRAL_API_KEY introuvable")
 client = Mistral(api_key=api_key)
