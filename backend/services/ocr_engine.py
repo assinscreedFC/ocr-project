@@ -7,12 +7,7 @@ import streamlit as st
 
 from mistralai import Mistral
 from dotenv import load_dotenv
-st.write("Clé API depuis st.secrets :", st.secrets.get("MISTRAL_API_KEY"))
-st.title("🔍 Variables d'environnement disponibles")
 
-# Affiche toutes les variables d'environnement
-for key, value in os.environ.items():
-    st.write(f"{key} = {value}")
 # 🔹 Charger la clé API
 load_dotenv(dotenv_path="./env")
 
