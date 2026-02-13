@@ -44,7 +44,7 @@
 
 1. **Clone the project**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/assinscreedFC/ocr-project.git
    cd ocr-project
    ```
 
